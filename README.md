@@ -1,4 +1,4 @@
-# raspberry-pi-instagram-printer #
+# rpi-cups-gutenprint #
 
 ### Installation ###
 
@@ -22,19 +22,12 @@
 
 #### Installation ####
 
-For this to work, you will need your instagram client id, secret, and the hashtag that you would like to follow / print. You can find / create these at http://instagram.com/developer.
-
-1. Download the install file `wget https://raw.githubusercontent.com/camswords/raspberry-pi-instagram-printer/master/install.sh`.
+1. Download the install file `wget https://raw.githubusercontent.com/DoctorLar/rpi-cups-gutenprint/master/install.sh`.
 2. Make it executable `chmod +x install.sh`
 3. Execute it with root permissions `sudo ./install.sh`
 
 This installation takes around an hour, largely because it needs to compile gutenprint.
 
-### Is it working? ###
-
-You can check the tags on instagram here: https://instagram.com/explore/tags/[tag-name]/
-
-You can read the logs of the instagram-print service here http://[your ip address]:8000
 
 ### Printers ###
 
