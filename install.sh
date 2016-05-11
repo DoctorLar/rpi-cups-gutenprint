@@ -8,7 +8,7 @@ lpadmin -x PDF
 
 # install a later version of gutenprint 
 apt-get install gettext libcups2-dev automake libtool libtool-bin autopoint jade libcupsimage2-dev --assume-yes
-wget http://sourceforge.net/projects/gimp-print/files/gutenprint-5.2/5.2.11/gutenprint-5.2.11.tar.bz2
+wget http://sourceforge.net/projects/gimp-print/files/gutenprint-5.2/5.2.11/gutenprint-5.2.11.tar.bz2 --no-check-certificate
 
 tar xvfj gutenprint-5.2.11.tar.bz2
 cd gutenprint-5.2.11
